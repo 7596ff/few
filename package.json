@@ -1,0 +1,23 @@
+{
+  "name": "few",
+  "version": "0.2.0",
+  "description": "tweets fuck everyword half hourly",
+  "main": "few.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bippum/few.git"
+  },
+  "author": "alexa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bippum/few/issues"
+  },
+  "homepage": "https://github.com/bippum/few#readme",
+  "dependencies": {
+    "pg": "^6.1.5",
+    "twitter": "^1.7.0"
+  }
+}
