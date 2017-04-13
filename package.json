@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bippum/few#readme",
   "dependencies": {
+    "bignumber.js": "^4.0.1",
     "pg": "^6.1.5",
     "twitter": "^1.7.0"
   }
