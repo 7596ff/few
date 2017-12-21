@@ -38,7 +38,7 @@ pg.connect((err) => {
             }
 
             promises.push(pg.query({
-                "text": "INSERT INTO tweets (id, word) VALUES ($1, $2);",
+                "text": "INSERT INTO tweets (id, word) VALUES ($1, $2) ON CONFLICT DO NOTHING;",
                 "values": [id, tweet]
             }));
         });
